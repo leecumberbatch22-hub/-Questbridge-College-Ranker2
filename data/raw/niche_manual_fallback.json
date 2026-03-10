@@ -1,0 +1,371 @@
+{
+  "massachusetts-institute-of-technology": {
+    "campus_life": "A",
+    "food": "A-",
+    "dorms": "A+",
+    "social": "B+",
+    "diversity": "A+",
+    "location": "A+",
+    "majors": "A+"
+  },
+  "stanford-university": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "A+",
+    "location": "A+",
+    "majors": "A+"
+  },
+  "yale-university": {
+    "campus_life": "A+",
+    "food": "A+",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "A+",
+    "location": "A",
+    "majors": "A+"
+  },
+  "princeton-university": {
+    "campus_life": "A+",
+    "food": "A+",
+    "dorms": "A+",
+    "social": "A-",
+    "diversity": "A",
+    "location": "A-",
+    "majors": "A+"
+  },
+  "harvard-university": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A",
+    "social": "A",
+    "diversity": "A+",
+    "location": "A+",
+    "majors": "A+"
+  },
+  "duke-university": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A+",
+    "diversity": "A",
+    "location": "B+",
+    "majors": "A+"
+  },
+  "vanderbilt-university": {
+    "campus_life": "A+",
+    "food": "A+",
+    "dorms": "A+",
+    "social": "A+",
+    "diversity": "A",
+    "location": "A",
+    "majors": "A+"
+  },
+  "rice-university": {
+    "campus_life": "A+",
+    "food": "A+",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "A",
+    "location": "A",
+    "majors": "A+"
+  },
+  "emory-university": {
+    "campus_life": "A",
+    "food": "A",
+    "dorms": "A",
+    "social": "A-",
+    "diversity": "A+",
+    "location": "A",
+    "majors": "A+"
+  },
+  "university-of-notre-dame": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "B+",
+    "location": "B",
+    "majors": "A+"
+  },
+  "georgetown-university": {
+    "campus_life": "A",
+    "food": "B+",
+    "dorms": "B+",
+    "social": "A",
+    "diversity": "A",
+    "location": "A+",
+    "majors": "A+"
+  },
+  "tufts-university": {
+    "campus_life": "A",
+    "food": "A-",
+    "dorms": "A-",
+    "social": "A-",
+    "diversity": "A",
+    "location": "A",
+    "majors": "A+"
+  },
+  "tulane-university": {
+    "campus_life": "A+",
+    "food": "A+",
+    "dorms": "A",
+    "social": "A+",
+    "diversity": "A",
+    "location": "A+",
+    "majors": "A"
+  },
+  "university-of-chicago": {
+    "campus_life": "A",
+    "food": "A",
+    "dorms": "A+",
+    "social": "B+",
+    "diversity": "A",
+    "location": "A+",
+    "majors": "A+"
+  },
+  "columbia-university-in-the-city-of-new-york": {
+    "campus_life": "A",
+    "food": "A-",
+    "dorms": "B+",
+    "social": "A",
+    "diversity": "A+",
+    "location": "A+",
+    "majors": "A+"
+  },
+  "brown-university": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A",
+    "social": "A",
+    "diversity": "A",
+    "location": "A",
+    "majors": "A+"
+  },
+  "dartmouth-college": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A+",
+    "diversity": "A-",
+    "location": "B",
+    "majors": "A+"
+  },
+  "cornell-university": {
+    "campus_life": "A+",
+    "food": "A+",
+    "dorms": "A",
+    "social": "A",
+    "diversity": "A+",
+    "location": "B+",
+    "majors": "A+"
+  },
+  "university-of-pennsylvania": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A",
+    "social": "A+",
+    "diversity": "A+",
+    "location": "A+",
+    "majors": "A+"
+  },
+  "california-institute-of-technology": {
+    "campus_life": "A-",
+    "food": "A+",
+    "dorms": "A+",
+    "social": "B",
+    "diversity": "A",
+    "location": "A+",
+    "majors": "A+"
+  },
+  "davidson-college": {
+    "campus_life": "A",
+    "food": "A-",
+    "dorms": "A",
+    "social": "A-",
+    "diversity": "B+",
+    "location": "B+",
+    "majors": "A"
+  },
+  "grinnell-college": {
+    "campus_life": "A",
+    "food": "B+",
+    "dorms": "A-",
+    "social": "B+",
+    "diversity": "A-",
+    "location": "C+",
+    "majors": "A"
+  },
+  "haverford-college": {
+    "campus_life": "A",
+    "food": "A-",
+    "dorms": "A",
+    "social": "B+",
+    "diversity": "A-",
+    "location": "A-",
+    "majors": "A"
+  },
+  "pomona-college": {
+    "campus_life": "A+",
+    "food": "A+",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "A",
+    "location": "A+",
+    "majors": "A+"
+  },
+  "swarthmore-college": {
+    "campus_life": "A",
+    "food": "A",
+    "dorms": "A",
+    "social": "B+",
+    "diversity": "A",
+    "location": "A-",
+    "majors": "A+"
+  },
+  "wellesley-college": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A-",
+    "diversity": "A",
+    "location": "A",
+    "majors": "A+"
+  },
+  "smith-college": {
+    "campus_life": "A",
+    "food": "A+",
+    "dorms": "A+",
+    "social": "A-",
+    "diversity": "A",
+    "location": "A-",
+    "majors": "A"
+  },
+  "amherst-college": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "A",
+    "location": "B+",
+    "majors": "A+"
+  },
+  "williams-college": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "A-",
+    "location": "B",
+    "majors": "A+"
+  },
+  "bowdoin-college": {
+    "campus_life": "A+",
+    "food": "A+",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "B+",
+    "location": "B+",
+    "majors": "A+"
+  },
+  "colby-college": {
+    "campus_life": "A+",
+    "food": "A+",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "B",
+    "location": "B",
+    "majors": "A"
+  },
+  "middlebury-college": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "B",
+    "location": "B-",
+    "majors": "A+"
+  },
+  "vassar-college": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "A",
+    "location": "B",
+    "majors": "A"
+  },
+  "carleton-college": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A",
+    "social": "A",
+    "diversity": "A-",
+    "location": "B-",
+    "majors": "A+"
+  },
+  "oberlin-college": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A-",
+    "social": "A",
+    "diversity": "A",
+    "location": "B-",
+    "majors": "A"
+  },
+  "kenyon-college": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "B",
+    "location": "C+",
+    "majors": "A-"
+  },
+  "macalester-college": {
+    "campus_life": "A+",
+    "food": "A-",
+    "dorms": "A",
+    "social": "A",
+    "diversity": "A+",
+    "location": "A+",
+    "majors": "A"
+  },
+  "colorado-college": {
+    "campus_life": "A+",
+    "food": "A-",
+    "dorms": "A",
+    "social": "A+",
+    "diversity": "B+",
+    "location": "A+",
+    "majors": "A-"
+  },
+  "university-of-rochester": {
+    "campus_life": "A-",
+    "food": "A",
+    "dorms": "A",
+    "social": "B+",
+    "diversity": "A",
+    "location": "B",
+    "majors": "A+"
+  },
+  "case-western-reserve-university": {
+    "campus_life": "B+",
+    "food": "B+",
+    "dorms": "A-",
+    "social": "B",
+    "diversity": "A",
+    "location": "A-",
+    "majors": "A+"
+  },
+  "wake-forest-university": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A+",
+    "diversity": "B+",
+    "location": "A-",
+    "majors": "A+"
+  }
+}

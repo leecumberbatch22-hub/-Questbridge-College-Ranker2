@@ -1,0 +1,166 @@
+{
+  "massachusetts-institute-of-technology": {
+    "engineering": "A+", "computer_science": "A+", "political_science": "B+",
+    "economics": "A+", "biology": "A+", "english": "B", "mathematics": "A+", "art_music": "B"
+  },
+  "stanford-university": {
+    "engineering": "A+", "computer_science": "A+", "political_science": "A",
+    "economics": "A+", "biology": "A+", "english": "A", "mathematics": "A+", "art_music": "A"
+  },
+  "yale-university": {
+    "engineering": "B+", "computer_science": "A", "political_science": "A+",
+    "economics": "A+", "biology": "A", "english": "A+", "mathematics": "A", "art_music": "A+"
+  },
+  "princeton-university": {
+    "engineering": "A", "computer_science": "A+", "political_science": "A+",
+    "economics": "A+", "biology": "A", "english": "A+", "mathematics": "A+", "art_music": "A"
+  },
+  "harvard-university": {
+    "engineering": "A", "computer_science": "A+", "political_science": "A+",
+    "economics": "A+", "biology": "A+", "english": "A+", "mathematics": "A+", "art_music": "A"
+  },
+  "duke-university": {
+    "engineering": "A+", "computer_science": "A", "political_science": "A",
+    "economics": "A+", "biology": "A+", "english": "A", "mathematics": "A", "art_music": "A-"
+  },
+  "vanderbilt-university": {
+    "engineering": "A", "computer_science": "A", "political_science": "A",
+    "economics": "A", "biology": "A+", "english": "A", "mathematics": "A", "art_music": "A-"
+  },
+  "rice-university": {
+    "engineering": "A+", "computer_science": "A+", "political_science": "B+",
+    "economics": "A", "biology": "A", "english": "A", "mathematics": "A+", "art_music": "A"
+  },
+  "emory-university": {
+    "engineering": "B", "computer_science": "B+", "political_science": "A",
+    "economics": "A", "biology": "A+", "english": "A", "mathematics": "A", "art_music": "A-"
+  },
+  "university-of-notre-dame": {
+    "engineering": "A+", "computer_science": "A", "political_science": "A",
+    "economics": "A", "biology": "A", "english": "A+", "mathematics": "A", "art_music": "A"
+  },
+  "georgetown-university": {
+    "engineering": "C+", "computer_science": "B", "political_science": "A+",
+    "economics": "A+", "biology": "B+", "english": "A", "mathematics": "B+", "art_music": "A-"
+  },
+  "tufts-university": {
+    "engineering": "A", "computer_science": "A", "political_science": "A+",
+    "economics": "A", "biology": "A", "english": "A", "mathematics": "A", "art_music": "A"
+  },
+  "tulane-university": {
+    "engineering": "B+", "computer_science": "B+", "political_science": "A",
+    "economics": "A", "biology": "A+", "english": "A", "mathematics": "B+", "art_music": "A+"
+  },
+  "university-of-chicago": {
+    "engineering": "B+", "computer_science": "A+", "political_science": "A+",
+    "economics": "A+", "biology": "A", "english": "A+", "mathematics": "A+", "art_music": "A"
+  },
+  "columbia-university-in-the-city-of-new-york": {
+    "engineering": "A", "computer_science": "A+", "political_science": "A+",
+    "economics": "A+", "biology": "A", "english": "A+", "mathematics": "A+", "art_music": "A+"
+  },
+  "brown-university": {
+    "engineering": "A", "computer_science": "A", "political_science": "A+",
+    "economics": "A", "biology": "A", "english": "A+", "mathematics": "A", "art_music": "A+"
+  },
+  "dartmouth-college": {
+    "engineering": "A", "computer_science": "A", "political_science": "A",
+    "economics": "A+", "biology": "A", "english": "A", "mathematics": "A", "art_music": "A-"
+  },
+  "cornell-university": {
+    "engineering": "A+", "computer_science": "A+", "political_science": "A",
+    "economics": "A", "biology": "A+", "english": "A", "mathematics": "A+", "art_music": "A"
+  },
+  "university-of-pennsylvania": {
+    "engineering": "A+", "computer_science": "A+", "political_science": "A",
+    "economics": "A+", "biology": "A", "english": "A", "mathematics": "A+", "art_music": "A"
+  },
+  "california-institute-of-technology": {
+    "engineering": "A+", "computer_science": "A+", "political_science": "C+",
+    "economics": "B", "biology": "A+", "english": "B-", "mathematics": "A+", "art_music": "B-"
+  },
+  "davidson-college": {
+    "engineering": "B-", "computer_science": "B", "political_science": "A",
+    "economics": "A", "biology": "A", "english": "A", "mathematics": "A", "art_music": "A"
+  },
+  "grinnell-college": {
+    "engineering": "B-", "computer_science": "B+", "political_science": "A",
+    "economics": "A", "biology": "A", "english": "A+", "mathematics": "A", "art_music": "A"
+  },
+  "haverford-college": {
+    "engineering": "B", "computer_science": "B+", "political_science": "A",
+    "economics": "A", "biology": "A+", "english": "A+", "mathematics": "A", "art_music": "A"
+  },
+  "pomona-college": {
+    "engineering": "B", "computer_science": "A", "political_science": "A",
+    "economics": "A", "biology": "A", "english": "A", "mathematics": "A+", "art_music": "A"
+  },
+  "swarthmore-college": {
+    "engineering": "A", "computer_science": "A", "political_science": "A",
+    "economics": "A", "biology": "A", "english": "A+", "mathematics": "A+", "art_music": "A"
+  },
+  "wellesley-college": {
+    "engineering": "B+", "computer_science": "A", "political_science": "A+",
+    "economics": "A", "biology": "A", "english": "A+", "mathematics": "A", "art_music": "A"
+  },
+  "smith-college": {
+    "engineering": "B+", "computer_science": "B+", "political_science": "A",
+    "economics": "A-", "biology": "A", "english": "A", "mathematics": "A", "art_music": "A+"
+  },
+  "amherst-college": {
+    "engineering": "B", "computer_science": "A-", "political_science": "A+",
+    "economics": "A", "biology": "A", "english": "A+", "mathematics": "A", "art_music": "A"
+  },
+  "williams-college": {
+    "engineering": "B+", "computer_science": "A-", "political_science": "A",
+    "economics": "A+", "biology": "A", "english": "A+", "mathematics": "A+", "art_music": "A"
+  },
+  "bowdoin-college": {
+    "engineering": "B-", "computer_science": "B+", "political_science": "A",
+    "economics": "A", "biology": "A+", "english": "A+", "mathematics": "A", "art_music": "A"
+  },
+  "colby-college": {
+    "engineering": "C+", "computer_science": "B+", "political_science": "A",
+    "economics": "A", "biology": "A", "english": "A", "mathematics": "A", "art_music": "A-"
+  },
+  "middlebury-college": {
+    "engineering": "C+", "computer_science": "B", "political_science": "A+",
+    "economics": "A", "biology": "A", "english": "A+", "mathematics": "A", "art_music": "A"
+  },
+  "vassar-college": {
+    "engineering": "C+", "computer_science": "B", "political_science": "A",
+    "economics": "A", "biology": "A", "english": "A+", "mathematics": "A", "art_music": "A+"
+  },
+  "carleton-college": {
+    "engineering": "B", "computer_science": "A", "political_science": "A",
+    "economics": "A", "biology": "A", "english": "A+", "mathematics": "A+", "art_music": "A"
+  },
+  "oberlin-college": {
+    "engineering": "C+", "computer_science": "B", "political_science": "A",
+    "economics": "A-", "biology": "A", "english": "A+", "mathematics": "A", "art_music": "A+"
+  },
+  "kenyon-college": {
+    "engineering": "D", "computer_science": "C+", "political_science": "A",
+    "economics": "B+", "biology": "A", "english": "A+", "mathematics": "A", "art_music": "A"
+  },
+  "macalester-college": {
+    "engineering": "B-", "computer_science": "B+", "political_science": "A+",
+    "economics": "A", "biology": "A", "english": "A", "mathematics": "A", "art_music": "A"
+  },
+  "colorado-college": {
+    "engineering": "B-", "computer_science": "B", "political_science": "A",
+    "economics": "A", "biology": "A+", "english": "A", "mathematics": "B+", "art_music": "A"
+  },
+  "university-of-rochester": {
+    "engineering": "A", "computer_science": "A+", "political_science": "B+",
+    "economics": "A", "biology": "A", "english": "A", "mathematics": "A+", "art_music": "B+"
+  },
+  "case-western-reserve-university": {
+    "engineering": "A+", "computer_science": "A+", "political_science": "B",
+    "economics": "B+", "biology": "A+", "english": "B+", "mathematics": "A+", "art_music": "B"
+  },
+  "wake-forest-university": {
+    "engineering": "B+", "computer_science": "B+", "political_science": "A",
+    "economics": "A", "biology": "A", "english": "A", "mathematics": "A", "art_music": "A-"
+  }
+}

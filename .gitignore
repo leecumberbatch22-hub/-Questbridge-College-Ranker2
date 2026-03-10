@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environment / secrets
+.env
+
+# OS
+.DS_Store
+
+# Claude local settings
+.claude/
