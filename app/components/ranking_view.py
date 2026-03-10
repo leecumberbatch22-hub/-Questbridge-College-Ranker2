@@ -68,7 +68,7 @@ def render_rankings(scored_df: pd.DataFrame, weights: dict):
         with col1:
             st.write(f"**{medal} {row['name']}**")
         with col2:
-            st.metric(label="", value=f"{row['weighted_score']:.1f}/100")
+            st.metric(label="Score", label_visibility="collapsed", value=f"{row['weighted_score']:.1f}/100")
 
     st.caption(
         "Rankings update instantly as you change weights or add/remove colleges in the sidebar. "
