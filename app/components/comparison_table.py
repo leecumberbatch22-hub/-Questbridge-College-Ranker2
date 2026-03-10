@@ -39,14 +39,22 @@ def render_comparison(scored_df: pd.DataFrame, weights: dict, selected_major: st
 
     style_cols = [label_map.get(c, c) for c in score_cols] + ["Total Score"]
 
+    def _rdylgn(val):
+        """Map 0-100 to a red-yellow-green background color without matplotlib."""
+        try:
+            v = float(val)
+        except (TypeError, ValueError):
+            return ""
+        v = max(0.0, min(100.0, v)) / 100.0
+        if v <= 0.5:
+            r, g = 255, int(255 * (v / 0.5))
+        else:
+            r, g = int(255 * ((1.0 - v) / 0.5)), 255
+        return f"background-color: rgb({r},{g},80); color: #111"
+
     styled = (
         display_df.style
-        .background_gradient(
-            subset=style_cols,
-            cmap="RdYlGn",
-            vmin=0,
-            vmax=100,
-        )
+        .applymap(_rdylgn, subset=style_cols)
         .format("{:.1f}", na_rep="N/A", subset=style_cols)
     )
 
