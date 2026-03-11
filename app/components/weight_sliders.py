@@ -42,6 +42,13 @@ def render_sliders() -> dict:
         "Uncheck a criterion to remove it from scoring and the table entirely."
     )
 
+    # Reset button
+    if st.button("↺ Reset to defaults", use_container_width=True):
+        for key in CRITERIA:
+            st.session_state[f"slider_{key}"] = _DEFAULTS.get(key, 9)
+            st.session_state[f"check_{key}"] = True
+        st.rerun()
+
     # ── Read current slider values from session state (set by previous render) ──
     current = {
         key: int(st.session_state.get(f"slider_{key}", _DEFAULTS.get(key, 11)))
@@ -102,10 +109,26 @@ def render_sliders() -> dict:
         n = len(CRITERIA)
         return {k: 1.0 / n for k in CRITERIA}
 
-    if remaining > 0:
-        st.info(f"Total: **{total}%** — {remaining}% unallocated")
+    # Progress bar
+    pct = min(total, 100)
+    if total == 100:
+        bar_color = "#2ecc71"
+        label = "Budget: 100% ✓"
+    elif total == 0:
+        bar_color = "#e74c3c"
+        label = f"Budget: 0% used — {remaining}% remaining"
     else:
-        st.success(f"Total: **100%** ✓")
+        bar_color = "#3498db"
+        label = f"Budget: {total}% used — {remaining}% remaining"
+
+    st.markdown(f"""
+<div class="budget-bar-wrap">
+  <div class="budget-bar-bg">
+    <div class="budget-bar-fill" style="width:{pct}%;background:{bar_color};"></div>
+  </div>
+  <div class="budget-label">{label}</div>
+</div>
+""", unsafe_allow_html=True)
 
     if total == 0:
         n = len(raw_weights)

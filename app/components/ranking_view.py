@@ -59,16 +59,36 @@ def render_rankings(scored_df: pd.DataFrame, weights: dict):
         st.link_button(f"View {top_name} on QuestBridge", top_url)
     st.divider()
 
-    # Numbered list with medal styling
+    # Top 3 medal cards
     st.subheader("Ranked List")
-    medals = {1: "🥇", 2: "🥈", 3: "🥉"}
-    for rank, row in ranked.iterrows():
-        medal = medals.get(rank, f"#{rank}")
-        col1, col2 = st.columns([3, 1])
-        with col1:
-            st.write(f"**{medal} {row['name']}**")
-        with col2:
-            st.metric(label="Score", label_visibility="collapsed", value=f"{row['weighted_score']:.1f}/100")
+    top3 = ranked.head(3)
+    card_styles = [
+        ("🥇", "gold"),
+        ("🥈", "silver"),
+        ("🥉", "bronze"),
+    ]
+    cols = st.columns(min(len(top3), 3))
+    for i, (rank, row) in enumerate(top3.iterrows()):
+        emoji, style = card_styles[i]
+        with cols[i]:
+            st.markdown(f"""
+<div class="medal-card {style}">
+  <div class="medal-emoji">{emoji}</div>
+  <div class="college-name">{row['name']}</div>
+  <div class="score-badge">{row['weighted_score']:.1f} / 100</div>
+</div>
+""", unsafe_allow_html=True)
+
+    # Remaining colleges (rank 4+)
+    rest = ranked.iloc[3:]
+    if not rest.empty:
+        st.write("")
+        for rank, row in rest.iterrows():
+            col1, col2 = st.columns([3, 1])
+            with col1:
+                st.write(f"**#{rank} {row['name']}**")
+            with col2:
+                st.metric(label="Score", label_visibility="collapsed", value=f"{row['weighted_score']:.1f}/100")
 
     st.caption(
         "Rankings update instantly as you change weights or add/remove colleges in the sidebar. "

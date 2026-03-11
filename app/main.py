@@ -27,13 +27,78 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ── Header ───────────────────────────────────────────────────
-st.title("🎓 Questbridge College Ranker")
-st.markdown(
-    "Compare Questbridge partner colleges across criteria that matter to you. "
-    "Adjust the weights to personalize your ranking."
-)
-st.divider()
+# ── Global CSS ───────────────────────────────────────────────
+st.markdown("""
+<style>
+/* Hero banner */
+.qb-hero {
+    background: linear-gradient(135deg, #0a2240 0%, #1a3a5c 100%);
+    border-radius: 12px;
+    padding: 28px 36px;
+    margin-bottom: 24px;
+    color: white;
+}
+.qb-hero h1 {
+    margin: 0 0 8px 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.qb-hero p {
+    margin: 0;
+    font-size: 1rem;
+    opacity: 0.85;
+    color: white;
+}
+
+/* Top-3 medal cards */
+.medal-card {
+    border-radius: 10px;
+    padding: 18px 16px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    background: #fafafa;
+    height: 100%;
+}
+.medal-card.gold   { border-top: 4px solid #FFD700; }
+.medal-card.silver { border-top: 4px solid #C0C0C0; }
+.medal-card.bronze { border-top: 4px solid #CD7F32; }
+.medal-card .medal-emoji { font-size: 2rem; margin-bottom: 6px; }
+.medal-card .college-name { font-weight: 700; font-size: 0.95rem; margin-bottom: 8px; }
+.medal-card .score-badge {
+    display: inline-block;
+    background: #0a2240;
+    color: white;
+    border-radius: 20px;
+    padding: 3px 14px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Progress bar */
+.budget-bar-wrap { margin: 8px 0 4px 0; }
+.budget-bar-bg {
+    background: #e9ecef;
+    border-radius: 6px;
+    height: 10px;
+    overflow: hidden;
+}
+.budget-bar-fill {
+    height: 10px;
+    border-radius: 6px;
+    transition: width 0.3s ease;
+}
+.budget-label { font-size: 0.8rem; margin-top: 4px; color: #555; }
+</style>
+""", unsafe_allow_html=True)
+
+# ── Hero header ──────────────────────────────────────────────
+st.markdown("""
+<div class="qb-hero">
+  <h1>🎓 Questbridge College Ranker</h1>
+  <p>Compare all 55 Questbridge partner colleges across criteria that matter to you. Adjust the weights to build your personalized ranking.</p>
+</div>
+""", unsafe_allow_html=True)
 
 # ── How to use ────────────────────────────────────────────────
 with st.expander("How to use this tool"):
@@ -119,6 +184,15 @@ else:
             df_to_score["score_majors"] = df_to_score[major_col]
 
     scored_df = calculate_all_scores(df_to_score, selected_colleges, weights)
+
+    # Download button
+    csv_data = scored_df[["name", "weighted_score"]].sort_values("weighted_score", ascending=False)
+    st.download_button(
+        label="⬇️ Download rankings as CSV",
+        data=csv_data.to_csv(index=False),
+        file_name="questbridge_rankings.csv",
+        mime="text/csv",
+    )
 
     tab1, tab2 = st.tabs(["Rankings", "Score Breakdown"])
 
