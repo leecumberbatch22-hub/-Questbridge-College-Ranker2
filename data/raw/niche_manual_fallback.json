@@ -89,15 +89,6 @@
     "location": "B",
     "majors": "A+"
   },
-  "georgetown-university": {
-    "campus_life": "A",
-    "food": "B+",
-    "dorms": "B+",
-    "social": "A",
-    "diversity": "A",
-    "location": "A+",
-    "majors": "A+"
-  },
   "tufts-university": {
     "campus_life": "A",
     "food": "A-",
@@ -106,15 +97,6 @@
     "diversity": "A",
     "location": "A",
     "majors": "A+"
-  },
-  "tulane-university": {
-    "campus_life": "A+",
-    "food": "A+",
-    "dorms": "A",
-    "social": "A+",
-    "diversity": "A",
-    "location": "A+",
-    "majors": "A"
   },
   "university-of-chicago": {
     "campus_life": "A",
@@ -314,15 +296,6 @@
     "location": "B-",
     "majors": "A"
   },
-  "kenyon-college": {
-    "campus_life": "A+",
-    "food": "A",
-    "dorms": "A+",
-    "social": "A",
-    "diversity": "B",
-    "location": "C+",
-    "majors": "A-"
-  },
   "macalester-college": {
     "campus_life": "A+",
     "food": "A-",
@@ -341,15 +314,6 @@
     "location": "A+",
     "majors": "A-"
   },
-  "university-of-rochester": {
-    "campus_life": "A-",
-    "food": "A",
-    "dorms": "A",
-    "social": "B+",
-    "diversity": "A",
-    "location": "B",
-    "majors": "A+"
-  },
   "case-western-reserve-university": {
     "campus_life": "B+",
     "food": "B+",
@@ -359,13 +323,175 @@
     "location": "A-",
     "majors": "A+"
   },
-  "wake-forest-university": {
+  "barnard-college": {
+    "campus_life": "A",
+    "food": "B+",
+    "dorms": "A",
+    "social": "A",
+    "diversity": "A+",
+    "location": "A+",
+    "majors": "A"
+  },
+  "bates-college": {
+    "campus_life": "A",
+    "food": "A",
+    "dorms": "A",
+    "social": "A-",
+    "diversity": "B+",
+    "location": "B",
+    "majors": "A-"
+  },
+  "boston-college": {
     "campus_life": "A+",
     "food": "A",
-    "dorms": "A+",
+    "dorms": "A",
     "social": "A+",
+    "diversity": "A-",
+    "location": "A",
+    "majors": "A+"
+  },
+  "boston-university": {
+    "campus_life": "A",
+    "food": "A-",
+    "dorms": "B+",
+    "social": "A",
+    "diversity": "A+",
+    "location": "A+",
+    "majors": "A+"
+  },
+  "claremont-mckenna-college": {
+    "campus_life": "A",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "A-",
+    "location": "A-",
+    "majors": "A"
+  },
+  "colgate-university": {
+    "campus_life": "A",
+    "food": "A",
+    "dorms": "A",
+    "social": "A",
+    "diversity": "B+",
+    "location": "C+",
+    "majors": "A-"
+  },
+  "college-of-the-holy-cross": {
+    "campus_life": "A",
+    "food": "A",
+    "dorms": "A",
+    "social": "A",
+    "diversity": "B+",
+    "location": "B+",
+    "majors": "A-"
+  },
+  "denison-university": {
+    "campus_life": "A",
+    "food": "A",
+    "dorms": "A",
+    "social": "A-",
+    "diversity": "B+",
+    "location": "C+",
+    "majors": "B+"
+  },
+  "hamilton-college": {
+    "campus_life": "A",
+    "food": "A+",
+    "dorms": "A",
+    "social": "A-",
+    "diversity": "B+",
+    "location": "C+",
+    "majors": "A-"
+  },
+  "johns-hopkins-university": {
+    "campus_life": "B+",
+    "food": "A-",
+    "dorms": "A-",
+    "social": "B+",
+    "diversity": "A+",
+    "location": "A",
+    "majors": "A+"
+  },
+  "northwestern-university": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A",
+    "social": "A+",
+    "diversity": "A+",
+    "location": "A",
+    "majors": "A+"
+  },
+  "scripps-college": {
+    "campus_life": "A",
+    "food": "A+",
+    "dorms": "A",
+    "social": "A-",
+    "diversity": "A",
+    "location": "A-",
+    "majors": "A-"
+  },
+  "skidmore-college": {
+    "campus_life": "A",
+    "food": "A",
+    "dorms": "A",
+    "social": "A",
     "diversity": "B+",
     "location": "A-",
+    "majors": "B+"
+  },
+  "university-of-richmond": {
+    "campus_life": "A+",
+    "food": "A+",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "B+",
+    "location": "A",
+    "majors": "A"
+  },
+  "university-of-southern-california": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A",
+    "social": "A+",
+    "diversity": "A+",
+    "location": "A+",
     "majors": "A+"
+  },
+  "university-of-virginia": {
+    "campus_life": "A+",
+    "food": "A",
+    "dorms": "A",
+    "social": "A+",
+    "diversity": "A",
+    "location": "A",
+    "majors": "A+"
+  },
+  "washington-and-lee-university": {
+    "campus_life": "A",
+    "food": "A",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "B",
+    "location": "B",
+    "majors": "A-"
+  },
+  "washington-university-in-st-louis": {
+    "campus_life": "A+",
+    "food": "A+",
+    "dorms": "A+",
+    "social": "A",
+    "diversity": "A+",
+    "location": "A",
+    "majors": "A+"
+  },
+  "wesleyan-university": {
+    "campus_life": "A",
+    "food": "A-",
+    "dorms": "A-",
+    "social": "A-",
+    "diversity": "A",
+    "location": "B+",
+    "majors": "A"
   }
 }
