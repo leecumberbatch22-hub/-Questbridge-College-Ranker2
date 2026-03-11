@@ -38,7 +38,7 @@ st.divider()
 # ── How to use ────────────────────────────────────────────────
 with st.expander("How to use this tool"):
     st.markdown("""
-**Step 1 — Select colleges:** Pick 2 or more Questbridge partner schools from the sidebar on the left. You can add as many as all 41.
+**Step 1 — Select colleges:** Pick 2 or more Questbridge partner schools from the sidebar on the left. You can add as many as all 55.
 
 **Step 2 — Focus your major (optional):** Use the Major Focus dropdown in the sidebar to choose a specific field like Engineering or Political Science. The Majors score will update to reflect each school's strength in that area instead of using a general rating.
 

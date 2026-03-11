@@ -22,6 +22,6 @@ def render_selector(df: pd.DataFrame) -> list[str]:
     if selected:
         st.caption(f"{len(selected)} college(s) selected. Rankings update instantly as you add or remove schools.")
     else:
-        st.caption("All 41 Questbridge partner colleges are available. Pick at least 2 to compare.")
+        st.caption(f"All {len(all_names)} Questbridge partner colleges are available. Pick at least 2 to compare.")
 
     return selected
